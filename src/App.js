@@ -1,21 +1,16 @@
 
 import './App.css';
+import Banner from './components/Banner';
 
 function App() {
   return (
     <div className="App">
+      <h2>Ganhador da loteria!</h2>
+        <p>Finalmente, no ultimo dia para resgaste de seu premio, aparece o sortudo para realizar o resgate. Que afirma estar se despedindo da vida de pobre</p>
       <header className="App-header">
-        <p>
-          Primeiro teste na vercel
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+         <Banner>
+        </Banner>
       </header>
     </div>
   );
